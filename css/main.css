@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:visited {
+  color: #000;
+}
+
+input {
+  outline: none;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .card {
+  height: 32rem;
+  width: 32rem;
+  border: 2px solid #00000080;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .card .title {
+  font-size: 6rem;
+}
+.container .card .links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+.container .card .links .link {
+  font-size: 2.4rem;
+}
+.container .card .links .link:hover {
+  color: red;
+  transition: 0.4s;
+}
+.container .return {
+  margin-top: 2rem;
+}
+.container .return .return__link {
+  font-size: 1.4rem;
+}
+
+.title--singup {
+  font-size: 4.2rem;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.2rem;
+  overflow: auto;
+}
+.form .form__input {
+  height: 2.6rem;
+  width: 60%;
+  padding: 0.6rem;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+.form .form__input:focus {
+  border-color: red;
+}
+.form .form__button {
+  height: 2.4rem;
+  width: 6rem;
+  cursor: pointer;
+  border: 1px solid #000;
+  border-radius: 4px;
+  font-size: 1.2rem;
+}
+.form .form__button:hover {
+  background-color: #0e9999;
+  transition: 0.4s;
+}
+
+/*# sourceMappingURL=main.css.map */
